@@ -1,0 +1,40 @@
+$c1: #8f7a66;
+$h1: 100%;
+
+header {
+  width: $h1;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 2em;
+  font-family: 'Yatra One', cursive;
+
+  h1 {
+    font-size: 4em;
+    font-weight: bold;
+    text-shadow: 5px 5px 5px #000;
+    line-height: .7;
+  }
+
+  #againBtn {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #fff;
+    background: $c1;
+    border-radius: 10px;
+    transition: all ease 1s;
+    cursor: pointer;
+
+    &:hover {
+      background: darken($c1, 20%);
+      transform: scale(1.2);
+    }
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  .score {
+    color: rgb(230, 60, 80);
+  }
+}

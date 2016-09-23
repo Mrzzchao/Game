@@ -1,0 +1,35 @@
+$cellWidth: 100px;
+$padding: $cellWidth/5;
+$gridWidth: 500 - 2*$padding;
+$gridColor: #bbada0;
+$cellColor: #ccc0b3;
+$numSize: 1.5em;
+
+.grid-container {
+  position: relative;
+  width: $gridWidth;
+  height: $gridWidth;
+  padding: $padding;
+  margin: 0 auto;
+  background: $gridColor;
+  border-radius: 10px;
+}
+
+.grid-cell {
+  position: absolute;
+  width: $cellWidth;
+  height: $cellWidth;
+  background: $cellColor;
+  border-radius: 6px;
+}
+
+.number-cell {
+  position: absolute;
+  border-radius: 6px;
+  font-weight: bold;
+  font-size: $numSize;
+  line-height: $cellWidth;
+  text-align: center;
+  font-family: 'Yatra One', cursive;
+
+}

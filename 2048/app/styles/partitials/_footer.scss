@@ -1,0 +1,19 @@
+footer {
+    margin-top: 20px;
+    text-align: center;
+    font-family: 'Yatra One', cursive;
+    .tip {
+        font-size: 2em;
+        font-family: 'Yatra One', cursive;
+    }
+    .me {
+        font-size: 1.5em;
+        font-weight: bold;
+        text-shadow: 2px 2px 2px #ccc;
+
+        a {
+            text-decoration: none;
+            color: #999;
+        }
+    }
+}
